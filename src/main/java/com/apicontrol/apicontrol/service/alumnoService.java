@@ -1,5 +1,7 @@
 package com.apicontrol.apicontrol.service;
 
+import java.util.Optional;
+
 import org.hibernate.mapping.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,6 +21,16 @@ public class alumnoService {
     public java.util.List<Alumno> getAllAlumnos() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getAllAlumnos'");
+    }
+
+    public Optional<Alumno> getAlumno(Long alumnoID) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAlumno'");
+    }
+
+    public Alumno updateAlumno(Long alumnoID, Alumno alumno) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updateAlumno'");
     }
 
 }
