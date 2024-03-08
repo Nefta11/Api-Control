@@ -23,4 +23,5 @@ public class Docente {
     private String correo;
     private String area;
     private String departamento;
+
 }
