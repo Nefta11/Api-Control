@@ -52,6 +52,8 @@ public class MainController {
         return alumnosPartial;
     }
 
+    
+
         @GetMapping("/Docentes")
     public List<Map<String, Object>> getAllDocentesPartial() {
         List<Docente> docentes = docenteService.getAllDocentes();
@@ -68,6 +70,8 @@ public class MainController {
 
         return docentesPartial;
     }
+
+
 
     @GetMapping("/Administrativos")
     public List<Map<String, Object>> getAllAdministrativosPartial() {
@@ -86,6 +90,8 @@ public class MainController {
 
         return administrativosPartial;
     }
+
+
 
         // Método para actualizar un administrativo
     @PutMapping("/Administrativos/{administrativoID}")
